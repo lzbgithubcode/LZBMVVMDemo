@@ -13,6 +13,14 @@
 		183AD8E51E4B0CCB00161C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AD8E31E4B0CCB00161C02 /* Main.storyboard */; };
 		183AD8E71E4B0CCB00161C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AD8E61E4B0CCB00161C02 /* Assets.xcassets */; };
 		183AD8EA1E4B0CCB00161C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AD8E81E4B0CCB00161C02 /* LaunchScreen.storyboard */; };
+		183AD9031E4B15DC00161C02 /* BaseDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9021E4B15DC00161C02 /* BaseDataManger.m */; };
+		183AD90C1E4B160F00161C02 /* BaseHttpDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9051E4B160F00161C02 /* BaseHttpDataManger.m */; };
+		183AD90D1E4B160F00161C02 /* BaseHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9071E4B160F00161C02 /* BaseHttpModel.m */; };
+		183AD90E1E4B160F00161C02 /* BaseResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9091E4B160F00161C02 /* BaseResponseModel.m */; };
+		183AD90F1E4B160F00161C02 /* BaseResquestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD90B1E4B160F00161C02 /* BaseResquestModel.m */; };
+		183AD9121E4B162600161C02 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9111E4B162600161C02 /* BaseModel.m */; };
+		183AD9151E4B18DC00161C02 /* NetWorkResquestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9141E4B18DC00161C02 /* NetWorkResquestTool.m */; };
+		183AD91A1E4B1A6300161C02 /* LZBFuncTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9191E4B1A6300161C02 /* LZBFuncTools.m */; };
 		445CCE3B2E3C6E74A9613F96 /* libPods-LZBMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94847D391A7A4A041B5BB14B /* libPods-LZBMVVMDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +35,24 @@
 		183AD8E61E4B0CCB00161C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183AD8E91E4B0CCB00161C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183AD8EB1E4B0CCB00161C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183AD9011E4B15DC00161C02 /* BaseDataManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataManger.h; sourceTree = "<group>"; };
+		183AD9021E4B15DC00161C02 /* BaseDataManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataManger.m; sourceTree = "<group>"; };
+		183AD9041E4B160F00161C02 /* BaseHttpDataManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHttpDataManger.h; sourceTree = "<group>"; };
+		183AD9051E4B160F00161C02 /* BaseHttpDataManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpDataManger.m; sourceTree = "<group>"; };
+		183AD9061E4B160F00161C02 /* BaseHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHttpModel.h; sourceTree = "<group>"; };
+		183AD9071E4B160F00161C02 /* BaseHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpModel.m; sourceTree = "<group>"; };
+		183AD9081E4B160F00161C02 /* BaseResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponseModel.h; sourceTree = "<group>"; };
+		183AD9091E4B160F00161C02 /* BaseResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponseModel.m; sourceTree = "<group>"; };
+		183AD90A1E4B160F00161C02 /* BaseResquestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResquestModel.h; sourceTree = "<group>"; };
+		183AD90B1E4B160F00161C02 /* BaseResquestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResquestModel.m; sourceTree = "<group>"; };
+		183AD9101E4B162600161C02 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		183AD9111E4B162600161C02 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		183AD9131E4B18DC00161C02 /* NetWorkResquestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkResquestTool.h; sourceTree = "<group>"; };
+		183AD9141E4B18DC00161C02 /* NetWorkResquestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkResquestTool.m; sourceTree = "<group>"; };
+		183AD9161E4B193500161C02 /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		183AD9171E4B198400161C02 /* LZBCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBCommonMacros.h; sourceTree = "<group>"; };
+		183AD9181E4B1A6300161C02 /* LZBFuncTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBFuncTools.h; sourceTree = "<group>"; };
+		183AD9191E4B1A6300161C02 /* LZBFuncTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBFuncTools.m; sourceTree = "<group>"; };
 		5BB666EACBC4D2280CB520A0 /* Pods-LZBMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZBMVVMDemo/Pods-LZBMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		94847D391A7A4A041B5BB14B /* libPods-LZBMVVMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZBMVVMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C9532A5E60CAF6C80A88DE /* Pods-LZBMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZBMVVMDemo/Pods-LZBMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +91,8 @@
 		183AD8D91E4B0CCB00161C02 /* LZBMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				183AD8F11E4B158000161C02 /* Common */,
+				183AD8F41E4B159100161C02 /* Modules */,
 				183AD8DD1E4B0CCB00161C02 /* AppDelegate.h */,
 				183AD8DE1E4B0CCB00161C02 /* AppDelegate.m */,
 				183AD8E01E4B0CCB00161C02 /* ViewController.h */,
@@ -74,6 +102,7 @@
 				183AD8E81E4B0CCB00161C02 /* LaunchScreen.storyboard */,
 				183AD8EB1E4B0CCB00161C02 /* Info.plist */,
 				183AD8DA1E4B0CCB00161C02 /* Supporting Files */,
+				183AD9161E4B193500161C02 /* Header.pch */,
 			);
 			path = LZBMVVMDemo;
 			sourceTree = "<group>";
@@ -84,6 +113,149 @@
 				183AD8DB1E4B0CCB00161C02 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183AD8F11E4B158000161C02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				183AD9181E4B1A6300161C02 /* LZBFuncTools.h */,
+				183AD9191E4B1A6300161C02 /* LZBFuncTools.m */,
+				183AD9171E4B198400161C02 /* LZBCommonMacros.h */,
+				183AD8F21E4B158000161C02 /* Base */,
+				183AD8F31E4B158000161C02 /* NetWork */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		183AD8F21E4B158000161C02 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				183AD8FE1E4B15C300161C02 /* Controller */,
+				183AD8FF1E4B15C300161C02 /* Model */,
+				183AD9001E4B15C300161C02 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		183AD8F31E4B158000161C02 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				183AD9131E4B18DC00161C02 /* NetWorkResquestTool.h */,
+				183AD9141E4B18DC00161C02 /* NetWorkResquestTool.m */,
+				183AD9041E4B160F00161C02 /* BaseHttpDataManger.h */,
+				183AD9051E4B160F00161C02 /* BaseHttpDataManger.m */,
+				183AD9061E4B160F00161C02 /* BaseHttpModel.h */,
+				183AD9071E4B160F00161C02 /* BaseHttpModel.m */,
+				183AD9081E4B160F00161C02 /* BaseResponseModel.h */,
+				183AD9091E4B160F00161C02 /* BaseResponseModel.m */,
+				183AD90A1E4B160F00161C02 /* BaseResquestModel.h */,
+				183AD90B1E4B160F00161C02 /* BaseResquestModel.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		183AD8F41E4B159100161C02 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				183AD8F51E4B159100161C02 /* Test */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		183AD8F51E4B159100161C02 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				183AD8F61E4B159100161C02 /* Controller */,
+				183AD8F91E4B159100161C02 /* Model */,
+				183AD8FD1E4B159100161C02 /* View */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		183AD8F61E4B159100161C02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				183AD8F71E4B159100161C02 /* DataVC */,
+				183AD8F81E4B159100161C02 /* VC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183AD8F71E4B159100161C02 /* DataVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataVC;
+			sourceTree = "<group>";
+		};
+		183AD8F81E4B159100161C02 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		183AD8F91E4B159100161C02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183AD8FA1E4B159100161C02 /* DM */,
+				183AD8FB1E4B159100161C02 /* Http */,
+				183AD8FC1E4B159100161C02 /* ViewModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		183AD8FA1E4B159100161C02 /* DM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DM;
+			sourceTree = "<group>";
+		};
+		183AD8FB1E4B159100161C02 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		183AD8FC1E4B159100161C02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		183AD8FD1E4B159100161C02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183AD8FE1E4B15C300161C02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183AD8FF1E4B15C300161C02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183AD9101E4B162600161C02 /* BaseModel.h */,
+				183AD9111E4B162600161C02 /* BaseModel.m */,
+				183AD9011E4B15DC00161C02 /* BaseDataManger.h */,
+				183AD9021E4B15DC00161C02 /* BaseDataManger.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		183AD9001E4B15C300161C02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E05CF711E6C3CD0E09521A7D /* Pods */ = {
@@ -226,8 +398,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183AD9121E4B162600161C02 /* BaseModel.m in Sources */,
+				183AD91A1E4B1A6300161C02 /* LZBFuncTools.m in Sources */,
 				183AD8E21E4B0CCB00161C02 /* ViewController.m in Sources */,
+				183AD9151E4B18DC00161C02 /* NetWorkResquestTool.m in Sources */,
+				183AD90E1E4B160F00161C02 /* BaseResponseModel.m in Sources */,
+				183AD90C1E4B160F00161C02 /* BaseHttpDataManger.m in Sources */,
 				183AD8DF1E4B0CCB00161C02 /* AppDelegate.m in Sources */,
+				183AD9031E4B15DC00161C02 /* BaseDataManger.m in Sources */,
+				183AD90D1E4B160F00161C02 /* BaseHttpModel.m in Sources */,
+				183AD90F1E4B160F00161C02 /* BaseResquestModel.m in Sources */,
 				183AD8DC1E4B0CCB00161C02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +528,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8LYGY3ZDDQ;
+				GCC_PREFIX_HEADER = /Users/apple/Documents/demo/github/LZBMVVMDemo/LZBMVVMDemo/LZBMVVMDemo/Common/LZBCommonMacros.h;
 				INFOPLIST_FILE = LZBMVVMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23334.LZBMVVMDemo";
@@ -361,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8LYGY3ZDDQ;
+				GCC_PREFIX_HEADER = /Users/apple/Documents/demo/github/LZBMVVMDemo/LZBMVVMDemo/LZBMVVMDemo/Common/LZBCommonMacros.h;
 				INFOPLIST_FILE = LZBMVVMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23334.LZBMVVMDemo";
