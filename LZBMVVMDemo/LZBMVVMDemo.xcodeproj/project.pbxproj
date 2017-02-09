@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		183AD8DC1E4B0CCB00161C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD8DB1E4B0CCB00161C02 /* main.m */; };
 		183AD8DF1E4B0CCB00161C02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD8DE1E4B0CCB00161C02 /* AppDelegate.m */; };
-		183AD8E21E4B0CCB00161C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD8E11E4B0CCB00161C02 /* ViewController.m */; };
 		183AD8E51E4B0CCB00161C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AD8E31E4B0CCB00161C02 /* Main.storyboard */; };
 		183AD8E71E4B0CCB00161C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183AD8E61E4B0CCB00161C02 /* Assets.xcassets */; };
 		183AD8EA1E4B0CCB00161C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183AD8E81E4B0CCB00161C02 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,12 @@
 		183AD9121E4B162600161C02 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9111E4B162600161C02 /* BaseModel.m */; };
 		183AD9151E4B18DC00161C02 /* NetWorkResquestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9141E4B18DC00161C02 /* NetWorkResquestTool.m */; };
 		183AD91A1E4B1A6300161C02 /* LZBFuncTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9191E4B1A6300161C02 /* LZBFuncTools.m */; };
+		183AD91D1E4C053400161C02 /* KSContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD91C1E4C053400161C02 /* KSContentModel.m */; };
+		183AD9201E4C05CC00161C02 /* KSCommitHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD91F1E4C05CC00161C02 /* KSCommitHttpModel.m */; };
+		183AD9231E4C07BF00161C02 /* KSCommitHttpDM.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9221E4C07BF00161C02 /* KSCommitHttpDM.m */; };
+		183AD9261E4C092E00161C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9251E4C092E00161C02 /* ViewController.m */; };
+		183AD9291E4C0A1300161C02 /* LZBBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9281E4C0A1300161C02 /* LZBBaseDataController.m */; };
+		183AD92C1E4C0A6500161C02 /* LZBCommitDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD92B1E4C0A6500161C02 /* LZBCommitDataController.m */; };
 		445CCE3B2E3C6E74A9613F96 /* libPods-LZBMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94847D391A7A4A041B5BB14B /* libPods-LZBMVVMDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +34,6 @@
 		183AD8DB1E4B0CCB00161C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		183AD8DD1E4B0CCB00161C02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		183AD8DE1E4B0CCB00161C02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		183AD8E01E4B0CCB00161C02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		183AD8E11E4B0CCB00161C02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		183AD8E41E4B0CCB00161C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183AD8E61E4B0CCB00161C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183AD8E91E4B0CCB00161C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +56,18 @@
 		183AD9171E4B198400161C02 /* LZBCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBCommonMacros.h; sourceTree = "<group>"; };
 		183AD9181E4B1A6300161C02 /* LZBFuncTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBFuncTools.h; sourceTree = "<group>"; };
 		183AD9191E4B1A6300161C02 /* LZBFuncTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBFuncTools.m; sourceTree = "<group>"; };
+		183AD91B1E4C053400161C02 /* KSContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSContentModel.h; sourceTree = "<group>"; };
+		183AD91C1E4C053400161C02 /* KSContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSContentModel.m; sourceTree = "<group>"; };
+		183AD91E1E4C05CC00161C02 /* KSCommitHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCommitHttpModel.h; sourceTree = "<group>"; };
+		183AD91F1E4C05CC00161C02 /* KSCommitHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCommitHttpModel.m; sourceTree = "<group>"; };
+		183AD9211E4C07BF00161C02 /* KSCommitHttpDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCommitHttpDM.h; sourceTree = "<group>"; };
+		183AD9221E4C07BF00161C02 /* KSCommitHttpDM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCommitHttpDM.m; sourceTree = "<group>"; };
+		183AD9241E4C092E00161C02 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		183AD9251E4C092E00161C02 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		183AD9271E4C0A1300161C02 /* LZBBaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBBaseDataController.h; sourceTree = "<group>"; };
+		183AD9281E4C0A1300161C02 /* LZBBaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBaseDataController.m; sourceTree = "<group>"; };
+		183AD92A1E4C0A6500161C02 /* LZBCommitDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBCommitDataController.h; sourceTree = "<group>"; };
+		183AD92B1E4C0A6500161C02 /* LZBCommitDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBCommitDataController.m; sourceTree = "<group>"; };
 		5BB666EACBC4D2280CB520A0 /* Pods-LZBMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZBMVVMDemo/Pods-LZBMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		94847D391A7A4A041B5BB14B /* libPods-LZBMVVMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZBMVVMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C9532A5E60CAF6C80A88DE /* Pods-LZBMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZBMVVMDemo/Pods-LZBMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,8 +110,6 @@
 				183AD8F41E4B159100161C02 /* Modules */,
 				183AD8DD1E4B0CCB00161C02 /* AppDelegate.h */,
 				183AD8DE1E4B0CCB00161C02 /* AppDelegate.m */,
-				183AD8E01E4B0CCB00161C02 /* ViewController.h */,
-				183AD8E11E4B0CCB00161C02 /* ViewController.m */,
 				183AD8E31E4B0CCB00161C02 /* Main.storyboard */,
 				183AD8E61E4B0CCB00161C02 /* Assets.xcassets */,
 				183AD8E81E4B0CCB00161C02 /* LaunchScreen.storyboard */,
@@ -184,6 +197,8 @@
 		183AD8F71E4B159100161C02 /* DataVC */ = {
 			isa = PBXGroup;
 			children = (
+				183AD92A1E4C0A6500161C02 /* LZBCommitDataController.h */,
+				183AD92B1E4C0A6500161C02 /* LZBCommitDataController.m */,
 			);
 			path = DataVC;
 			sourceTree = "<group>";
@@ -191,6 +206,8 @@
 		183AD8F81E4B159100161C02 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				183AD9241E4C092E00161C02 /* ViewController.h */,
+				183AD9251E4C092E00161C02 /* ViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -208,6 +225,8 @@
 		183AD8FA1E4B159100161C02 /* DM */ = {
 			isa = PBXGroup;
 			children = (
+				183AD9211E4C07BF00161C02 /* KSCommitHttpDM.h */,
+				183AD9221E4C07BF00161C02 /* KSCommitHttpDM.m */,
 			);
 			path = DM;
 			sourceTree = "<group>";
@@ -215,6 +234,10 @@
 		183AD8FB1E4B159100161C02 /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				183AD91B1E4C053400161C02 /* KSContentModel.h */,
+				183AD91C1E4C053400161C02 /* KSContentModel.m */,
+				183AD91E1E4C05CC00161C02 /* KSCommitHttpModel.h */,
+				183AD91F1E4C05CC00161C02 /* KSCommitHttpModel.m */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -236,6 +259,8 @@
 		183AD8FE1E4B15C300161C02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				183AD9271E4C0A1300161C02 /* LZBBaseDataController.h */,
+				183AD9281E4C0A1300161C02 /* LZBBaseDataController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -398,15 +423,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183AD9261E4C092E00161C02 /* ViewController.m in Sources */,
+				183AD9291E4C0A1300161C02 /* LZBBaseDataController.m in Sources */,
 				183AD9121E4B162600161C02 /* BaseModel.m in Sources */,
+				183AD92C1E4C0A6500161C02 /* LZBCommitDataController.m in Sources */,
 				183AD91A1E4B1A6300161C02 /* LZBFuncTools.m in Sources */,
-				183AD8E21E4B0CCB00161C02 /* ViewController.m in Sources */,
+				183AD9201E4C05CC00161C02 /* KSCommitHttpModel.m in Sources */,
 				183AD9151E4B18DC00161C02 /* NetWorkResquestTool.m in Sources */,
 				183AD90E1E4B160F00161C02 /* BaseResponseModel.m in Sources */,
+				183AD91D1E4C053400161C02 /* KSContentModel.m in Sources */,
 				183AD90C1E4B160F00161C02 /* BaseHttpDataManger.m in Sources */,
 				183AD8DF1E4B0CCB00161C02 /* AppDelegate.m in Sources */,
 				183AD9031E4B15DC00161C02 /* BaseDataManger.m in Sources */,
 				183AD90D1E4B160F00161C02 /* BaseHttpModel.m in Sources */,
+				183AD9231E4C07BF00161C02 /* KSCommitHttpDM.m in Sources */,
 				183AD90F1E4B160F00161C02 /* BaseResquestModel.m in Sources */,
 				183AD8DC1E4B0CCB00161C02 /* main.m in Sources */,
 			);

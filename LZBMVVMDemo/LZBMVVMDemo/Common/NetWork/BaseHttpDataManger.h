@@ -15,7 +15,7 @@
  *  发送给请求
  *
  *  @param requestModel  请求模型
- *  @param responseModel 响应模型
+ *  @param responseClass 响应模型
  *  @param sucessBlock   成功
  *  @param failBlock     失败
  *
