@@ -11,7 +11,9 @@
 
 #ifdef __OBJC__
 
+#import <SDWebImage/UIImageView+WebCache.h>
 #import <Mantle/Mantle.h>
+#import <SDWebImageManager.h>
 #import "LZBCommonMacros.h"
 #import "LZBFuncTools.h"
 

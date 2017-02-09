@@ -26,6 +26,14 @@
 		183AD9261E4C092E00161C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9251E4C092E00161C02 /* ViewController.m */; };
 		183AD9291E4C0A1300161C02 /* LZBBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD9281E4C0A1300161C02 /* LZBBaseDataController.m */; };
 		183AD92C1E4C0A6500161C02 /* LZBCommitDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD92B1E4C0A6500161C02 /* LZBCommitDataController.m */; };
+		183AD92F1E4C4BD400161C02 /* LZBImageViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD92E1E4C4BD400161C02 /* LZBImageViewTableViewCell.m */; };
+		183AD9351E4C4E1A00161C02 /* default_head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AD9311E4C4E1A00161C02 /* default_head@2x.png */; };
+		183AD9361E4C4E1A00161C02 /* default_head@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AD9321E4C4E1A00161C02 /* default_head@3x.png */; };
+		183AD9371E4C4E1A00161C02 /* default_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AD9331E4C4E1A00161C02 /* default_photo@2x.png */; };
+		183AD9381E4C4E1A00161C02 /* default_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AD9341E4C4E1A00161C02 /* default_photo@3x.png */; };
+		183AD93B1E4C4E2800161C02 /* me_other_followed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AD9391E4C4E2800161C02 /* me_other_followed@2x.png */; };
+		183AD93C1E4C4E2800161C02 /* me_other_followed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AD93A1E4C4E2800161C02 /* me_other_followed@3x.png */; };
+		183AD93F1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD93E1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.m */; };
 		445CCE3B2E3C6E74A9613F96 /* libPods-LZBMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94847D391A7A4A041B5BB14B /* libPods-LZBMVVMDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +76,16 @@
 		183AD9281E4C0A1300161C02 /* LZBBaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBBaseDataController.m; sourceTree = "<group>"; };
 		183AD92A1E4C0A6500161C02 /* LZBCommitDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBCommitDataController.h; sourceTree = "<group>"; };
 		183AD92B1E4C0A6500161C02 /* LZBCommitDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBCommitDataController.m; sourceTree = "<group>"; };
+		183AD92D1E4C4BD400161C02 /* LZBImageViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBImageViewTableViewCell.h; sourceTree = "<group>"; };
+		183AD92E1E4C4BD400161C02 /* LZBImageViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBImageViewTableViewCell.m; sourceTree = "<group>"; };
+		183AD9311E4C4E1A00161C02 /* default_head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_head@2x.png"; sourceTree = "<group>"; };
+		183AD9321E4C4E1A00161C02 /* default_head@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_head@3x.png"; sourceTree = "<group>"; };
+		183AD9331E4C4E1A00161C02 /* default_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_photo@2x.png"; sourceTree = "<group>"; };
+		183AD9341E4C4E1A00161C02 /* default_photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_photo@3x.png"; sourceTree = "<group>"; };
+		183AD9391E4C4E2800161C02 /* me_other_followed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_other_followed@2x.png"; sourceTree = "<group>"; };
+		183AD93A1E4C4E2800161C02 /* me_other_followed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_other_followed@3x.png"; sourceTree = "<group>"; };
+		183AD93D1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZBImageViewTableViewCellViewModel.h; sourceTree = "<group>"; };
+		183AD93E1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZBImageViewTableViewCellViewModel.m; sourceTree = "<group>"; };
 		5BB666EACBC4D2280CB520A0 /* Pods-LZBMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZBMVVMDemo/Pods-LZBMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		94847D391A7A4A041B5BB14B /* libPods-LZBMVVMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZBMVVMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C9532A5E60CAF6C80A88DE /* Pods-LZBMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZBMVVMDemo/Pods-LZBMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +196,7 @@
 		183AD8F51E4B159100161C02 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				183AD9301E4C4E0500161C02 /* Resourse */,
 				183AD8F61E4B159100161C02 /* Controller */,
 				183AD8F91E4B159100161C02 /* Model */,
 				183AD8FD1E4B159100161C02 /* View */,
@@ -245,6 +264,8 @@
 		183AD8FC1E4B159100161C02 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				183AD93D1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.h */,
+				183AD93E1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -252,6 +273,8 @@
 		183AD8FD1E4B159100161C02 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				183AD92D1E4C4BD400161C02 /* LZBImageViewTableViewCell.h */,
+				183AD92E1E4C4BD400161C02 /* LZBImageViewTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +304,19 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		183AD9301E4C4E0500161C02 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				183AD9391E4C4E2800161C02 /* me_other_followed@2x.png */,
+				183AD93A1E4C4E2800161C02 /* me_other_followed@3x.png */,
+				183AD9311E4C4E1A00161C02 /* default_head@2x.png */,
+				183AD9321E4C4E1A00161C02 /* default_head@3x.png */,
+				183AD9331E4C4E1A00161C02 /* default_photo@2x.png */,
+				183AD9341E4C4E1A00161C02 /* default_photo@3x.png */,
+			);
+			path = Resourse;
 			sourceTree = "<group>";
 		};
 		E05CF711E6C3CD0E09521A7D /* Pods */ = {
@@ -364,7 +400,13 @@
 			files = (
 				183AD8EA1E4B0CCB00161C02 /* LaunchScreen.storyboard in Resources */,
 				183AD8E71E4B0CCB00161C02 /* Assets.xcassets in Resources */,
+				183AD9351E4C4E1A00161C02 /* default_head@2x.png in Resources */,
+				183AD93B1E4C4E2800161C02 /* me_other_followed@2x.png in Resources */,
+				183AD93C1E4C4E2800161C02 /* me_other_followed@3x.png in Resources */,
+				183AD9371E4C4E1A00161C02 /* default_photo@2x.png in Resources */,
 				183AD8E51E4B0CCB00161C02 /* Main.storyboard in Resources */,
+				183AD9381E4C4E1A00161C02 /* default_photo@3x.png in Resources */,
+				183AD9361E4C4E1A00161C02 /* default_head@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +470,7 @@
 				183AD9121E4B162600161C02 /* BaseModel.m in Sources */,
 				183AD92C1E4C0A6500161C02 /* LZBCommitDataController.m in Sources */,
 				183AD91A1E4B1A6300161C02 /* LZBFuncTools.m in Sources */,
+				183AD92F1E4C4BD400161C02 /* LZBImageViewTableViewCell.m in Sources */,
 				183AD9201E4C05CC00161C02 /* KSCommitHttpModel.m in Sources */,
 				183AD9151E4B18DC00161C02 /* NetWorkResquestTool.m in Sources */,
 				183AD90E1E4B160F00161C02 /* BaseResponseModel.m in Sources */,
@@ -438,6 +481,7 @@
 				183AD90D1E4B160F00161C02 /* BaseHttpModel.m in Sources */,
 				183AD9231E4C07BF00161C02 /* KSCommitHttpDM.m in Sources */,
 				183AD90F1E4B160F00161C02 /* BaseResquestModel.m in Sources */,
+				183AD93F1E4C4ED000161C02 /* LZBImageViewTableViewCellViewModel.m in Sources */,
 				183AD8DC1E4B0CCB00161C02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
