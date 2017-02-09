@@ -9,13 +9,9 @@
 #import "KSCommitHttpDM.h"
 
 @implementation KSCommitHttpDM
--(NSURLSessionDataTask *)d_attentionListWithtime:(double)time rTime:(double)rTime count:(int)count type:(NSString *)type  success:(void(^)(KSCommitHttpResponseModel *responseModel))success fail:(void(^)(NSError *error))fail
+- (NSURLSessionDataTask *)getMainNearListsucessResponse:(void (^)(KSCommitHttpResponseModel *response))sucessBlock failResponse:(failResponseBlock)failBlock
 {
-    KSCommitHttpModel *model = [[KSCommitHttpModel alloc] init];
-    model.time = time;
-    model.rtime = rTime;
-    model.count = count;
-    model.type = type;
-    return [self sendGetWithModel:model ResponseClass:[KSCommitHttpResponseModel class] sucessResponse:success failResponse:fail];
+    KSCommitHttpModel *model = [[KSCommitHttpModel alloc]init];
+    return [self sendGetWithModel:model ResponseClass:[KSCommitHttpResponseModel class] sucessResponse:sucessBlock failResponse:failBlock];
 }
 @end

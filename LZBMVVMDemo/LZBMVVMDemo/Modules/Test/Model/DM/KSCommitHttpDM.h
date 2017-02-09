@@ -10,8 +10,9 @@
 #import "KSCommitHttpModel.h"
 
 @interface KSCommitHttpDM : BaseHttpDataManger
+
 /**
- *  获取关注列表
+ *  获得附近直播列表数据
  */
--(NSURLSessionDataTask *)d_attentionListWithtime:(double)time rTime:(double)rTime count:(int)count type:(NSString *)type  success:(void(^)(KSCommitHttpResponseModel *responseModel))success fail:(void(^)(NSError *error))fail;
+- (NSURLSessionDataTask *)getMainNearListsucessResponse:(void (^)(KSCommitHttpResponseModel *response))sucessBlock failResponse:(failResponseBlock)failBlock;
 @end

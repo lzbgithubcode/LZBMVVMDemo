@@ -7,23 +7,51 @@
 //
 
 #import "ViewController.h"
+#import "LZBCommitDataController.h"
 
 @interface ViewController ()
 
+@property (nonatomic, strong,nullable) LZBCommitDataController *dataVC;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self fetchUpdateData];
     
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)fetchUpdateData
+{
+    LZBWeakSelf(weakSelf);
+   [self.dataVC resquestUpdateDataWithCallback:^(NSError *error) {
+      if(error == nil)
+      {
+          [weakSelf reloadSubViewData];
+      }
+       else
+       {
+           NSLog(@"=====%@",error.description);
+       }
+       
+   }];
 }
 
+
+- (void)reloadSubViewData
+{
+    NSArray *data = self.dataVC.dataTopics;
+}
+
+#pragma mark -
+-(LZBCommitDataController *)dataVC
+{
+   if(_dataVC == nil)
+   {
+       _dataVC = [[LZBCommitDataController alloc]init];
+   }
+    return _dataVC;
+}
 
 @end

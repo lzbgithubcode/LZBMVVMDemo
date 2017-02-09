@@ -211,6 +211,7 @@ static AFHTTPSessionManager *_resquestManger;
     if(_resquestDefaultHeadDict == nil)
     {
         _resquestDefaultHeadDict = [NSMutableDictionary dictionary];
+        
     }
     return _resquestDefaultHeadDict;
 }
