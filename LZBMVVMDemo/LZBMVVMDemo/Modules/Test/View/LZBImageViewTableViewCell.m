@@ -45,11 +45,22 @@
 - (void)setCellModel:(LZBImageViewTableViewCellViewModel *)cellModel
 {
     _cellModel = cellModel;
-    [self.coverImageView sd_setImageWithURL:[NSURL URLWithString:cellModel.coverImageUrl] placeholderImage:[UIImage imageNamed:@"default_photo"]];
-    [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:cellModel.coverImageUrl] placeholderImage:[UIImage imageNamed:@"default_head"]];
-    self.titleLabel.text = cellModel.title;
-    [self.praiseButton setTitle:[NSString stringWithFormat:@"%ld",cellModel.praise] forState:UIControlStateNormal];
+    [self.coverImageView sd_setImageWithURL:[NSURL URLWithString:cellModel.contentModel.creator.portrait] placeholderImage:[UIImage imageNamed:@"default_photo"]];
+    [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:cellModel.contentModel.creator.portrait] placeholderImage:[UIImage imageNamed:@"default_head"]];
+    self.titleLabel.text = cellModel.contentModel.creator.nick;
+    [self.praiseButton setTitle:[NSString stringWithFormat:@"%ld",cellModel.contentModel.creator.userId] forState:UIControlStateNormal];
 
+}
+
+- (void)reloadPraiseCountWithModel:(LZBImageViewTableViewCellViewModel *)cellModel
+{
+  [self.praiseButton setTitle:[NSString stringWithFormat:@"%ld",cellModel.contentModel.creator.userId] forState:UIControlStateNormal];  
+}
+
+- (void)praiseButtonClick
+{
+      if(self.cellPraiseClick)
+          self.cellPraiseClick(self.cellModel);
 }
 
 #pragma mark - lazy
@@ -93,6 +104,7 @@
        _praiseButton = [UIButton buttonWithType:UIButtonTypeCustom];
        [_praiseButton setImage:[UIImage imageNamed:@"me_other_followed"] forState:UIControlStateNormal];
        [_praiseButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+       [_praiseButton addTarget:self action:@selector(praiseButtonClick) forControlEvents:UIControlEventTouchUpInside];
        
    }
     return _praiseButton;

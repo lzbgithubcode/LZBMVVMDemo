@@ -66,6 +66,12 @@ static NSString *LZBImageViewTableViewCellID = @"LZBImageViewTableViewCellID";
     if(indexPath.row < self.cellModel.count)
     {
         cell.cellModel = self.cellModel[indexPath.row];
+        
+        __weak typeof(cell)  weakCell = cell;
+       [cell setCellPraiseClick:^(LZBImageViewTableViewCellViewModel *cellModel) {
+           cellModel.contentModel.creator.userId++;
+           [weakCell reloadPraiseCountWithModel:cellModel];
+       }];
     }
     return cell;
 }

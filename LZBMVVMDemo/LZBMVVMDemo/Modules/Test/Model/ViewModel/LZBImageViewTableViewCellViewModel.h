@@ -14,10 +14,11 @@
 @interface LZBImageViewTableViewCellViewModel : NSObject
 
 //data
-@property (nonatomic, strong) NSString *coverImageUrl;
-@property (nonatomic, strong) NSString *iconImageUrl;
-@property (nonatomic, strong) NSString *title;
-@property (nonatomic, assign) NSInteger praise;
+//@property (nonatomic, strong) NSString *coverImageUrl;
+//@property (nonatomic, strong) NSString *iconImageUrl;
+//@property (nonatomic, strong) NSString *title;
+//@property (nonatomic, assign) NSInteger praise;
+@property (nonatomic, strong) KSContentModel *contentModel;
 
 
 //frame
@@ -26,7 +27,7 @@
 @property (nonatomic, assign, readonly) CGRect titleLabelFrame;
 @property (nonatomic, assign, readonly) CGRect praiseButtonFrame;
 @property (nonatomic, assign, readonly) CGRect bottomLineFrame;
-@property (nonatomic, assign,readonly) CGFloat cellHeight;
+@property (nonatomic, assign, readonly) CGFloat cellHeight;
 
 
 

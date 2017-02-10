@@ -27,22 +27,18 @@
 + (NSArray <LZBImageViewTableViewCellViewModel * >*)viewModelWithContentModel:(NSArray <KSContentModel *>*)topics
 {
     NSMutableArray  *tempArray = [NSMutableArray array];
+    LZBWeakSelf(weakSelf);
     [topics enumerateObjectsUsingBlock:^(KSContentModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [tempArray addObject:[self convertViewModelWithModel:obj]];
+        LZBImageViewTableViewCellViewModel *cellModel = [[LZBImageViewTableViewCellViewModel alloc]init];
+        cellModel.contentModel = obj;
+        [weakSelf configViewModelWithModel:obj viewMoedel:cellModel];
+        [tempArray addObject:cellModel];
     }];
     return tempArray;
 }
 
-+ (LZBImageViewTableViewCellViewModel *)convertViewModelWithModel:(KSContentModel *)contentModel
++ (void)configViewModelWithModel:(KSContentModel *)contentModel  viewMoedel:(LZBImageViewTableViewCellViewModel *)viewModel
 {
-    LZBImageViewTableViewCellViewModel *viewModel = [[LZBImageViewTableViewCellViewModel alloc]init];
-    viewModel.coverImageUrl = contentModel.creator.portrait.length==0?@"":contentModel.creator.portrait;
-    viewModel.iconImageUrl = viewModel.coverImageUrl;
-    viewModel.title = contentModel.creator.nick.length == 0?@"":contentModel.creator.nick;
-    viewModel.praise = contentModel.creator.userId;
-    
-    
-    
     //1.头像
     CGFloat iconImageViewFrameX = defaultMargin;
     CGFloat iconImageViewFrameY = defaultMargin;
@@ -79,7 +75,5 @@
     viewModel.bottomLineFrame = CGRectMake(bottomLineFrameX, bottomLineFrameY, bottomLineFrameW, bottomLineFrameH);
     
     viewModel.cellHeight = CGRectGetMaxY(viewModel.bottomLineFrame);
-    
-    return viewModel;
 }
 @end
